@@ -21,7 +21,7 @@ namespace MilhasParaKm
             Console.WriteLine("== Conversão ==");
             Console.ResetColor();
             Console.WriteLine();
-            Console.WriteLine($"{milhas} milhas são {km:N1}km");
+            Console.WriteLine($"{milhas} milhas são {km:N3}km");
             Console.WriteLine();
         }
     }
