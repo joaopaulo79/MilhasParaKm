@@ -14,7 +14,6 @@ namespace MilhasParaKm
 
             Console.WriteLine("Digite a medida em milhas, para\nconverter em km.\n");
             
-            
             Console.Write("Medida em milhas: ");
             milhas = Convert.ToDouble(Console.ReadLine());
 
