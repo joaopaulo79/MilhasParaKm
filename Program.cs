@@ -23,8 +23,14 @@ namespace MilhasParaKm
             Console.ForegroundColor = ConsoleColor.DarkYellow;
             Console.WriteLine("\n== Conversão ==\n");
             Console.ResetColor();
+<<<<<<< HEAD
  
             Console.WriteLine($"{milhas} milhas são {km:N3}km\n");
+=======
+            Console.WriteLine();
+            Console.WriteLine($"{milhas} milhas são {km:N3}km");
+            Console.WriteLine();
+>>>>>>> 7da795a9597d8331508e2c9cdd17cabec1f25f84
         }
     }
 }
